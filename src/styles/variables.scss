@@ -1,0 +1,17 @@
+$primary-color: #FAFAFA;
+$secondary-color: #171615;
+$accent-color: #D9D9D9;
+
+$text-strong-color: #1A1A1A;
+$text-primary-color: #171615;
+
+$animation: 0.3s;
+
+$media-size: 800px;
+
+$polygon: polygon(
+    10% 0%,   /* top-left moves right */
+    100% 0%,   /* top-right moves left */
+    90% 100%, /* bottom-right */
+    0% 100%    /* bottom-left */
+);

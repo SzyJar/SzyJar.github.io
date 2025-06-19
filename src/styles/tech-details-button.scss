@@ -1,0 +1,53 @@
+@use 'variables' as *;
+
+.icon {
+    height: 4rem;
+    width: 4rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 1rem;
+    overflow: hidden;
+    transition: all $animation ease;
+    position: relative;
+
+    &::before,
+    &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 0.1rem;
+        width: 100%;
+        pointer-events: none;
+    }
+
+    &::after {
+        background-color: $text-strong-color; 
+        transform: translate3d(-110%, 0, 0);
+        opacity: 1;
+        transition: transform $animation ease;
+    }
+
+    &:hover::after {
+        transform: translate3d(0, 0, 0);
+    }
+
+    img {
+        margin: 0;
+        padding: 0;
+        height: 4rem;
+        width: 4rem;
+    }
+
+    @media(width < $media-size) {
+        height: 2rem;
+        width: 2rem;
+        img {
+            margin: 0;
+            padding: 0;
+            height: 2rem;
+            width: 2rem;
+        }
+    }
+}

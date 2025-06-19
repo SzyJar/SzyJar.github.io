@@ -1,0 +1,41 @@
+@use 'variables' as *;
+
+a {
+  color: $text-strong-color;
+  font-size: 1.4em;
+  display: block;
+  position: relative;
+  margin: 0.6rem;
+  text-decoration: none;
+  overflow: hidden;
+  transition: all $animation ease;
+  position: relative;
+  text-decoration: none;
+
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 0.1rem;
+    width: 100%;
+    pointer-events: none;
+  }
+
+  &::before {
+    background-color: $accent-color; 
+  }
+
+  &::after {
+    background-color: $text-strong-color; 
+    transform: translate3d(-110%, 0, 0);
+    opacity: 1;
+    transition: transform $animation ease;
+  }
+
+  &:hover::after,
+  &:focus::after {
+    transform: translate3d(0, 0, 0);
+  }
+}

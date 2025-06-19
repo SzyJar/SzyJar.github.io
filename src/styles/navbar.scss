@@ -1,0 +1,49 @@
+@use 'variables' as *;
+@use 'animate-link';
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  color: $text-strong-color;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 999;
+  font-weight: 700;
+  
+  &.blurred {
+    backdrop-filter: blur(15px);
+  }
+
+  .name {
+    margin: 0 0 0 15px;
+  }
+  
+  .nav {
+    display: flex;
+    gap: 60px;
+    text-align: right;
+    margin: 0 35px 0 0;
+
+    .mobile-nav-link {
+      display: none;
+    }
+
+    @media(width < 600px){
+      .pc-nav-link {
+        display: none;
+      }
+      .mobile-nav-link {
+        display: inline;
+      }
+    }
+
+    @media(width < 600px){
+      gap: 10px;
+      margin: 0 15px 0 0;
+    }
+  }
+}
+
