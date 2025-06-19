@@ -9,7 +9,7 @@
     <div class='nav'>
         <a href='#tech-section'>
             <div class="pc-nav-link">Tech Stack</div>
-            <div class="mobile-nav-link"><i class="fa-solid fa-arrow-down"></i></div>
+            <div class="mobile-nav-link"><i class="fa-solid fa-layer-group"></i></div>
         </a>
     </div>
 </nav>
