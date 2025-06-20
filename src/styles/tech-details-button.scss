@@ -34,20 +34,17 @@
     }
 
     img {
-        margin: 0;
-        padding: 0;
         height: 4rem;
         width: 4rem;
     }
 
     @media(width < $media-size) {
-        height: 2.5rem;
-        width: 2.5rem;
+        height: 3.4rem;
+        width: 3.4rem;
+
         img {
-            margin: 0;
-            padding: 0;
-            height: 2.5rem;
-            width: 2.5rem;
+            height: 3.4rem;
+            width: 3.4rem;
         }
     }
 }
