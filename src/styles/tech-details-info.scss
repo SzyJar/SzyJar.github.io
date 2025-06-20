@@ -20,7 +20,12 @@
 
      @media(width < $media-size) {
         .stars {
-            font-size: 1rem;
+            font-size: 1.5rem;
+        }
+
+        .additional-info {
+            text-align: center;
+            width: 100%;
         }
     }
 }

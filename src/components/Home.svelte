@@ -23,6 +23,6 @@
         </div>
     </div>
     <div class='home-image'>
-        <img loading="lazy" alt="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My face is supposed to appear here 👀&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" src="https://media.licdn.com/dms/image/v2/C4D03AQE_xTK5GZgVTA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1658071648093?e=1755734400&v=beta&t=YOrRFum0TEii3dAsVTHJzFf3HySesZ_u4_2RrlUDE74">
+        <img loading="lazy" alt="My face is supposed to appear here 👀" src="https://lh3.googleusercontent.com/d/15lMHyXA3hMfBOpDttrnMjM2SJywpQjRN">
     </div>
 </div>

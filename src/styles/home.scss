@@ -7,19 +7,22 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 90vh;
+  min-height: fit-content;
 
   @media(width < $media-size) {
     flex-direction: column;
-    margin-top: 3rem;
+    padding-top: 1.6rem;
   }
 
   .home-text {
+    margin: 0;
     display: flex;
     flex-direction: column;
     align-items: left;
 
     h1 {
+      margin: 0;
       margin-bottom: 4px;
       font-size: 2rem;
     }
@@ -61,7 +64,7 @@
   }
 
   .home-image {
-    padding: 1rem; 
+    padding: 1rem;
 
     img {
       height: 20rem;

@@ -19,7 +19,7 @@
 
 </script>
 
-<div class="tech">
+<div class="tech" id="select-tech">
     <div class="select-tech-container">
         <div class="header-main">Technology stack I use</div>
         <div class="group-header">Microsoft full-stack development</div>
