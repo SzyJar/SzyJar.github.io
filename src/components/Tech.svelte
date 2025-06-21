@@ -12,9 +12,7 @@
     ]
 
     const webstack = [
-        { tech: "svelte",   src: "/logos/svelte.svg" },
-        { tech: "html",     src: "/logos/html5.svg" },
-        { tech: "css",      src: "/logos/css.svg" },
+        { tech: "svelte",   src: "/logos/svelte.svg" }
     ]
 
 </script>

@@ -1,4 +1,4 @@
-<script lang='ts'>
+<script>
     import '../styles/app.scss'
     import Footer from '../components/Footer.svelte'
     import Home from '../components/Home.svelte'
