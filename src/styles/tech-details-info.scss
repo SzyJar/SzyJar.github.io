@@ -18,22 +18,6 @@
         width: 100%;
     }
 
-    .tags {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        gap: 0.5rem;
-
-        div::after {
-            content: ",";
-            margin-left: 0.1rem;
-        }
-
-        div:last-child::after {
-            content: "";
-        }
-    }
-
      @media(width < $media-size) {
         .stars {
             font-size: 1.5rem;

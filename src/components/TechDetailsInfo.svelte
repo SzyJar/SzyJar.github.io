@@ -25,9 +25,4 @@
   <div class="additional-info">
     {details?.text}
   </div>
-  <div class="tags">
-    {#each details?.keyWords as keyWord}
-      <div>{keyWord}</div>
-    {/each}
-  </div>
 </div>
