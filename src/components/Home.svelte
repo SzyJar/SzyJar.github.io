@@ -23,6 +23,6 @@
         </div>
     </div>
     <div class='home-image'>
-        <img loading="lazy" alt="My face is supposed to appear here 👀" src="https://lh3.googleusercontent.com/d/15lMHyXA3hMfBOpDttrnMjM2SJywpQjRN">
+        <img class="photo" loading="lazy" alt="My face is supposed to appear here 👀" src="https://lh3.googleusercontent.com/d/14xm92nyqnQKYXRRpC5kbP3NrO0yUTUc7">
     </div>
 </div>

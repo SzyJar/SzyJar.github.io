@@ -1,5 +1,5 @@
 <script>
-     import '../styles/navbar.scss';
+    import '../styles/navbar.scss';
 </script>
 
 <nav class="navbar blurred">
@@ -7,9 +7,13 @@
         <a href='#home-section'>Szymon Jaroszyński</a>
     </div>
     <div class='nav'>
-        <a href='#select-tech'>
-            <div class="pc-nav-link">Tech Stack</div>
-            <div class="mobile-nav-link"><i class="fa-solid fa-layer-group"></i></div>
-        </a>
+        <div class="pc-nav-link">
+            <a href='#select-tech'>Tech Stack</a>
+        </div>
+        <div class="mobile-nav-link">
+            <a href='#select-tech' aria-label="Tech Stack">
+                <i class="fa-solid fa-layer-group"></i>
+            </a>
+        </div>
     </div>
 </nav>

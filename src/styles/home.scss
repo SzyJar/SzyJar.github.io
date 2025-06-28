@@ -1,5 +1,5 @@
 @use 'variables' as *;
-@use 'animate-link';
+@use 'animated-link';
 
 .home {
   margin: 0;
@@ -36,6 +36,7 @@
       margin-top: 1rem;
       margin-bottom: 1rem;
       font-size: 1rem;
+      
       p {
         margin: 0;
         padding: 4px;
@@ -50,23 +51,13 @@
     .links {
       display: flex;
       gap: 0.5rem;
-
-      a {        
-        color: $text-strong-color;
-        text-align: center;
-        font-size: 2rem;
-
-        &:hover {
-          color: $text-strong-color;
-        }
-      }
     }
   }
 
   .home-image {
     padding: 1rem;
 
-    img {
+    .photo {
       height: 20rem;
       width: 20rem;
       object-fit: cover;
