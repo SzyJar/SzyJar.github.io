@@ -11,10 +11,6 @@
         { tech: "mssql",    src: "/logos/microsoft-sql-server.svg" }
     ]
 
-    const webstack = [
-        { tech: "svelte",   src: "/logos/svelte.svg" }
-    ]
-
 </script>
 
 <div class="tech" id="select-tech">
@@ -23,12 +19,6 @@
         <div class="group-header">Microsoft full-stack development</div>
         <div class="select-tech">
             {#each microsoftStack as tech, i}
-                <TechDetailsButton hover={() => curentTech=tech.tech} tech={tech.tech} src={tech.src}/>
-            {/each}
-        </div>
-        <div class="group-header">Web development</div>
-        <div class="select-tech">
-            {#each webstack as tech, i}
                 <TechDetailsButton hover={() => curentTech=tech.tech} tech={tech.tech} src={tech.src}/>
             {/each}
         </div>

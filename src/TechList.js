@@ -16,12 +16,6 @@ const techList = [
         "stars": 2,
         "name": "MS SQL Server",
         "text": "I can write complex SELECT queries using multiple joins and filters. I use SQL Server Management Studio for query execution and occasionally analyze execution plans.",
-    },
-    {
-        "id": "svelte",
-        "stars": 2,
-        "name": "Svelte / SvelteKit",
-        "text": "I can comfortably build simple to moderately complex Svelte and SvelteKit applications. I have experience managing data fetching in SSR contexts, alongside building reactive components and handling component state.",
     }
 ]
 
