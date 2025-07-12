@@ -15,7 +15,7 @@ const techList = [
         "id": "mssql",
         "stars": 2,
         "name": "MS SQL Server",
-        "text": "I can write complex SELECT queries using multiple joins and filters. I use SQL Server Management Studio for query execution and occasionally analyze execution plans.",
+        "text": "I can write complex SELECT queries using multiple joins and filters. I use SQL Server Management Studio for query execution and execution plan analysis.",
     }
 ]
 

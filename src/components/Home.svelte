@@ -9,9 +9,6 @@
             a .NET Developer who enjoys building useful and well-crafted applications
         </h2>
         <div class="description">
-             <p>
-                I’m a .NET developer who enjoys learning and continuously improving.
-            </p>
             <p>
                 I focus on writing clean, maintainable code that's built to scale — always with the end-user experience in mind.
             </p>
