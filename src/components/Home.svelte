@@ -10,10 +10,13 @@
         </h2>
         <div class="description">
              <p>
-                I enjoy learning and continuously improving as a software developer.
+                I’m a .NET developer who enjoys learning and continuously improving.
             </p>
             <p>
-                My focus is on writing code that is easy to maintain, built to scale, and with user experience in mind.
+                I focus on writing clean, maintainable code that's built to scale — always with the end-user experience in mind.
+            </p>
+            <p>
+                Most of my work involves building full-stack applications using ASP.NET Core, Blazor, and WPF.
             </p>
         </div>
         <div class="links">
