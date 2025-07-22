@@ -1,12 +1,12 @@
 @use 'variables' as *;
 
 .icon {
-    height: 4rem;
-    width: 4rem;
+    height: 5rem;
+    width: 5rem;
     display: flex;
     text-align: center;
     align-items: center;
-    padding: 1rem;
+    padding: 0.6rem;
     overflow: hidden;
     position: relative;
 
@@ -21,6 +21,10 @@
         pointer-events: none;
     }
 
+    &::before {
+        background-color: $accent-color; 
+    }
+
     &::after {
         background-color: $text-strong-color; 
         transform: translate3d(-110%, 0, 0);
@@ -33,7 +37,7 @@
     }
 
     img {
-        height: 5rem;
-        width: 5rem;
+        height: 100%;
+        width: 100%;
     }
 }
