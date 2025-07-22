@@ -10,7 +10,7 @@
 		"prepare": "svelte-kit sync || echo ''",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
-		"deploy": "npm run build && find ../szyjar-gh-pages -mindepth 1 ! -name '.git' -exec rm -rf {} + && cp -r build/. ../szyjar-gh-pages/ && cd ../szyjar-gh-pages && git add . && git commit -m Deploy && git push origin gh-pages"
+		"deploy": "node check-git-bash.js && npm run build && find ../szyjar-gh-pages -mindepth 1 ! -name '.git' -exec rm -rf {} + && cp -r build/. ../szyjar-gh-pages/ && cd ../szyjar-gh-pages && git add . && git commit -m Deploy && git push origin gh-pages"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-static": "^3.0.8",
