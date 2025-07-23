@@ -10,7 +10,7 @@
         </h2>
         <div class="description">
             <p>
-                I focus on writing clean, maintainable code that's built to scale — always with the end-user experience in mind.
+                I focus on writing clean, maintainable code that's built to scale, always with the end-user experience in mind.
             </p>
             <p>
                 Most of my work involves building full-stack applications using ASP.NET Core, Blazor, and WPF.

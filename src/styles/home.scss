@@ -33,10 +33,16 @@
     }
 
     .description {
+      text-align: justify;
       margin-top: 1rem;
       margin-bottom: 1rem;
       font-size: 1rem;
       
+    @media(width < $media-size) {
+        align-items: center;
+        text-align: center;
+      }
+
       p {
         margin: 0;
         padding: 4px;
@@ -51,6 +57,7 @@
     .links {
       display: flex;
       gap: 0.5rem;
+       
     }
   }
 

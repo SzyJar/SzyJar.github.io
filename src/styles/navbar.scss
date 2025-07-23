@@ -12,6 +12,24 @@
   align-items: center;
   z-index: 999;
   font-weight: 700;
+
+  .mobile-nav-link {
+      display: none;
+      padding: 0 1rem;
+    }
+    
+  @media(width < $media-size){
+      .pc-nav-link {
+        display: none;
+      }
+      .mobile-nav-link {
+        display: inline;
+        
+         a {
+          font-size: 2rem;
+        }
+      }
+  }
   
   a {
     font-size: 1.4rem;
@@ -22,31 +40,30 @@
   }
 
   .name {
-    margin: 0 0 0 15px;
+    min-width: fit-content;
+    padding: 0 1rem;
   }
   
   .nav {
     display: flex;
-    gap: 60px;
-    text-align: right;
-    margin: 0 35px 0 0;
+    justify-content: end;
+    width: 100%;
+    padding: 0 1rem;
 
     .mobile-nav-link {
       display: none;
     }
 
-    @media(width < 600px){
+    @media(width < $media-size){
       .pc-nav-link {
         display: none;
       }
       .mobile-nav-link {
         display: inline;
+        a {
+          font-size: 2rem;
+        }
       }
-    }
-
-    @media(width < 600px){
-      gap: 10px;
-      margin: 0 15px 0 0;
     }
   }
 }

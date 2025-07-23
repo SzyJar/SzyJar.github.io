@@ -8,7 +8,8 @@
     const microsoftStack = [
         { tech: "dotnet",   src: "/logos/dotnet.svg" },
         { tech: "blazor",   src: "/logos/blazor.svg" },
-        { tech: "mssql",    src: "/logos/microsoft-sql-server.svg" }
+        { tech: "mssql",    src: "/logos/microsoft-sql-server.svg" },
+        { tech: "azure",    src: "/logos/microsoft-azure.svg" },
     ]
 
 </script>

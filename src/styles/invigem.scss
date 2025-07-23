@@ -1,0 +1,67 @@
+@use 'variables' as *;
+
+.invigem {
+  margin: 0;
+  color: $text-primary-color;
+  background-color: $primary-color;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  height: calc(100vh - 10rem);
+  min-height: fit-content;
+  gap: 1rem;
+
+   @media(width < $media-size) {
+      flex-direction: column;
+    }
+}
+
+.description-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  .links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  
+    a {
+      width: fit-content;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      i {
+        font-size: 1rem;
+        margin: 0 0 1rem 0.3rem;
+      }
+    }
+  }
+}
+
+.tech-stack{
+  text-align: left;
+}
+
+.preview-container {
+  max-height: 80vh;
+  width: 30rem;
+
+  @media(width < $media-size) {
+      width: auto;
+  }
+
+  .preview-image {
+    max-height: 80vh;
+    width: 30rem;
+    object-fit: contain;    
+
+    @media(width < $media-size) {
+      height: auto;
+      max-width: 90vw;
+    }
+  }
+}
