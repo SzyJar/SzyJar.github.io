@@ -21,7 +21,7 @@ const techList = [
         "id": "azure",
         "stars": 2,
         "name": "Azure",
-        "text": "Built and deployed hobby-level applications using multiple core Azure services including App Service, Function App, Logic App, Key Vault, and Table Storage. I have a solid understanding of Azure’s core capabilities and how to integrate services effectively. Currently growing toward deeper expertise with infrastructure, identity, and automation workflows.",
+        "text": "Built and deployed hobby-level applications using multiple core Azure services including App Service, Function App, Logic App, Key Vault, and Table Storage. I have a solid understanding of Azure’s core capabilities and how to integrate services effectively.",
     }
 ]
 
