@@ -15,7 +15,7 @@ const techList = [
         "id": "mssql",
         "stars": 2,
         "name": "MS SQL Server",
-        "text": "Iam proficient in writing complex SQL queries involving multiple joins, filters, and subqueries. I am also experienced with SQL Server Management Studio for query execution, performance tuning, and execution plan analysis.",
+        "text": "I am proficient in writing complex SQL queries involving multiple joins, filters, and subqueries. I am also experienced with SQL Server Management Studio for query execution, performance tuning, and execution plan analysis.",
     },
     {
         "id": "azure",
