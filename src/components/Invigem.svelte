@@ -9,7 +9,7 @@
 
     <div class="description-container">
         <div>
-            Invigem is a&nbsp;ETF screener that analyzes
+            Invigem is an&nbsp;ETF screener that analyzes
             growth momentum to generate data-driven
             portfolio allocation suggestions.
 

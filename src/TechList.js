@@ -15,13 +15,13 @@ const techList = [
         "id": "mssql",
         "stars": 2,
         "name": "MS SQL Server",
-        "text": "Proficient in writing complex SQL queries involving multiple joins, filters, and subqueries. Experienced with SQL Server Management Studio for query execution, performance tuning, and execution plan analysis.",
+        "text": "Iam proficient in writing complex SQL queries involving multiple joins, filters, and subqueries. I am also experienced with SQL Server Management Studio for query execution, performance tuning, and execution plan analysis.",
     },
     {
         "id": "azure",
         "stars": 2,
         "name": "Azure",
-        "text": "Built and deployed hobby-level applications using multiple core Azure services including App Service, Function App, Logic App, Key Vault, and Table Storage. I have a solid understanding of Azure’s core capabilities and how to integrate services effectively.",
+        "text": "I have built and deployed hobby-level applications using multiple core Azure services including App Service, Function App, Logic App, Key Vault, and Table Storage. I have a solid understanding of Azure’s core capabilities and how to integrate services effectively.",
     }
 ]
 
