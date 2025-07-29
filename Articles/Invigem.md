@@ -28,6 +28,10 @@ I implemented a custom caching layer using **`ConcurrentDictionary`**  to achiev
 
 This approach reduces code duplication and simplifies the application's overall data flow, making it easier to understand and maintain.
 
+![Data Flow Diagram](https://raw.githubusercontent.com/SzyJar/SzyJar.github.io/refs/heads/main/Articles/Invigem-data-flow.svg)
+
+*Figure 1: Data Flow Diagram*
+
 
 ### WASM Hydration and Prefetch
 
