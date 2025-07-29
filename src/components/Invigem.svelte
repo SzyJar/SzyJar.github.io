@@ -24,7 +24,8 @@
         </div>
 
         <div class="links">
-            <a href="https://invigem-g5f0edg0g9dhcqdb.germanywestcentral-01.azurewebsites.net/" target="_blank">Visit Website <i class="fas fa-external-link-alt"></i></a>
+            <a href="./articles/invigem">Read full article</a>
+            <a href="https://invigem-g5f0edg0g9dhcqdb.germanywestcentral-01.azurewebsites.net/" target="_blank">Visit website <i class="fas fa-external-link-alt"></i></a>
         </div>
     </div>
 </div>
