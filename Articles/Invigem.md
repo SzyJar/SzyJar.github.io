@@ -1,4 +1,5 @@
-# Invigem - how it's build
+*July 29, 2025 • Szymon Jaroszyński*
+# Invigem - how it's built
 
 _Invigem_ is a hobby project built using **Blazor Server** with the **Interactive Auto render mode** for a responsive, dynamic user experience. The backend is developed with **ASP.NET Core**, serving both the web application and API endpoints that act as a secure proxy for accessing external services and Azure Table Storage — keeping sensitive keys and connection strings off the client. The entire application stack is deployed and hosted on **Microsoft Azure**, ensuring scalability and reliability.
 
