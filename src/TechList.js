@@ -1,27 +1,34 @@
 const techList = [
     {
         "id": "dotnet",
-        "stars": 4,
         "name": ".NET ecosystem",
-        "text": "I can build and maintain full-stack applications within the .NET ecosystem, using ASP.NET Core, Entity Framework Core, and Blazor or WPF. I’m proficient in LINQ, object-oriented programming, and common software design patterns.",
+        "text": `Proficient in full-stack .NET development using ASP.NET Core,
+         Entity Framework Core, and front-end technologies like Blazor and WPF.
+         Experienced with LINQ, object-oriented programming (OOP), and applying
+         common software design patterns to build maintainable and scalable applications.`,
     },
     {
         "id": "blazor",
-        "stars": 3,
         "name": "Blazor",
-        "text": "I can build both SSR and CSR Blazor applications. I'm comfortable using dependency injection, JavaScript interop, and I understand the nuances of Blazor’s rendering and component lifecycle.",
+        "text": `Developed several applications using both Blazor Server (SSR)
+         and Blazor WebAssembly (CSR). Comfortable with dependency injection,
+         JavaScript interop, and well-versed in Blazor’s component lifecycle and rendering behavior.`,
     },
     {
         "id": "mssql",
-        "stars": 2,
         "name": "MS SQL Server",
-        "text": "I am proficient in writing complex SQL queries involving multiple joins, filters, and subqueries. I am also experienced with SQL Server Management Studio for query execution, performance tuning, and execution plan analysis.",
+        "text": `Proficient in writing complex SQL queries involving multiple joins, filters, and subqueries.
+         Experienced with SQL Server Management Studio (SSMS) for query execution, performance tuning,
+         and execution plan analysis.`,
     },
     {
         "id": "azure",
-        "stars": 2,
         "name": "Azure",
-        "text": "I have built and deployed hobby-level applications using multiple core Azure services including App Service, Function App, Logic App, Key Vault, and Table Storage. I have a solid understanding of Azure’s core capabilities and how to integrate services effectively.",
+        "text": `Built and deployed hobby-level applications
+         using core Azure services such as App Service, Function App,
+         Logic App, Key Vault, and Table Storage. Gained hands-on experience
+         integrating these services and developed a solid understanding
+         of Azure’s core platform features.`,
     }
 ]
 

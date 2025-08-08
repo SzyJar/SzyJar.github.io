@@ -14,14 +14,6 @@
   <div class="name">
     {details?.name}
   </div>
-  <div class="stars">
-    {#each Array(details?.stars ?? 0) as _, i}
-      <i class="fa-solid fa-star"></i>
-    {/each}<!--
---->{#each Array(5 - (details?.stars ?? 0)) as _, i}
-      <i class="fa-regular fa-star"></i>
-    {/each}
-  </div>
   <div class="additional-info">
     {details?.text}
   </div>

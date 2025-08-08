@@ -6,13 +6,11 @@
     <div class='home-text'>
         <h1>Hello! My name is Szymon Jaroszyński</h1>
         <h2>
-            a .NET Developer who enjoys building useful and well-crafted applications
+            a .NET Developer who enjoys building solid and maintainable systems
         </h2>
         <div class="description">
             <p>
-                I focus on writing clean, maintainable code that's built to scale, always with the end-user experience in mind.
-            </p>
-            <p>
+                I focus on writing clean, maintainable code that's built to scale. 
                 Most of my work involves building full-stack applications using ASP.NET Core, Blazor, and WPF.
             </p>
         </div>

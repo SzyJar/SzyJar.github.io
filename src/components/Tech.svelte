@@ -16,8 +16,6 @@
 
 <div class="tech" id="select-tech">
     <div class="select-tech-container">
-        <div class="header-main">Technology stack I use</div>
-        <div class="group-header">Microsoft full-stack development</div>
         <div class="select-tech">
             {#each microsoftStack as tech, i}
                 <TechDetailsButton hover={() => curentTech=tech.tech} tech={tech.tech} src={tech.src}/>

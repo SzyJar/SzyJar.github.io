@@ -9,20 +9,12 @@
         font-weight: 800;
     }
 
-    .stars {
-        font-size: 2rem;
-    }
-
     .additional-info {
         text-align: justify;
         width: 100%;
     }
 
      @media(width < $media-size) {
-        .stars {
-            font-size: 1.5rem;
-        }
-
         .additional-info {
             width: 100%;
         }
